@@ -31,7 +31,6 @@
   },
   "devDependencies": {
     "babel-cli": "6.x.x",
-    "babel-loader": "6.x.x",
     "babel-preset-es2015": "6.x.x",
     "babel-preset-react": "6.x.x",
     "babel-preset-stage-2": "6.x.x",
@@ -39,6 +38,7 @@
     "eslint": "3.x.x",
     "eslint-setup-orgztion-services": "orgztion/eslint-setup-orgztion-services",
     "react-scrollaware": "1.x.x",
+    "lodash.throttle": "4.x.x",
     "cross-env": "*",
     "rimraf": "*",
     "mkdirp": "*"
