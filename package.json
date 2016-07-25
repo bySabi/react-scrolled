@@ -37,9 +37,8 @@
     "babel-plugin-transform-class-properties": "6.x.x",
     "eslint": "3.x.x",
     "eslint-setup-orgztion-services": "orgztion/eslint-setup-orgztion-services",
-    "react-scrollaware": "1.x.x",
+    "react-scrollaware": "bySabi/react-scrollaware",
     "lodash.throttle": "4.x.x",
-    "cross-env": "*",
     "rimraf": "*",
     "mkdirp": "*"
    },
