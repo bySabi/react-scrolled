@@ -22,8 +22,13 @@
   "main": "lib/index.js",
   "scripts": {
     "build-npm": "rimraf lib && mkdirp lib && babel src/ -d lib/",
+
     "lint": "eslint . --ext .js,.jsx",
     "prepublish": "npm run build-npm"
+  },
+  "dependencies": {
+    "lodash.throttle": "4.x.x",
+    "react-scrollaware": "1.x.x",
   },
   "peerDependencies": {
     "react": "15.x.x",
@@ -37,8 +42,6 @@
     "babel-plugin-transform-class-properties": "6.x.x",
     "eslint": "3.x.x",
     "eslint-setup-orgztion-services": "orgztion/eslint-setup-orgztion-services",
-    "react-scrollaware": "bySabi/react-scrollaware",
-    "lodash.throttle": "4.x.x",
     "rimraf": "*",
     "mkdirp": "*"
    },
